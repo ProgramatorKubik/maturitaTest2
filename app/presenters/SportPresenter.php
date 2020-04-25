@@ -8,10 +8,10 @@ namespace App\Presenters;
 
 
 
-class PrihlaskaPresenter extends \Nette\Application\UI\Presenter{
+class SportPresenter extends \Nette\Application\UI\Presenter{
     
-    public function createComponentPrihlaska($name) {
-           return new \Prihlaska($this, $name);
+    public function createComponentSport($name) {
+           return new \Sport($this, $name);
     }
     
     public function actionSuccess($name) {
